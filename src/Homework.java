@@ -33,6 +33,8 @@ public class Homework {
 		} else {
 			System.out.println("You cannot drink :(");
 		}
+		// Ternary operators are used to inline boolean expressions
+		String canYouDrink = age >= 21 ? "Yes" : "No";
 
 		// Switch statement
 		switch (name) {
@@ -55,6 +57,7 @@ public class Homework {
 		String test = name;
 		System.out.println(name == test);
 
+		// Use of math operations
 		int a = 5;
 		a++;
 		a--;
